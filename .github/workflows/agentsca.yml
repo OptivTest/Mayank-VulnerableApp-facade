@@ -1,9 +1,7 @@
 on: 
   push:
-    paths-ignore:
-      - "README.md"
-      - "**.json"
-      - "action.yml"
+    paths:
+      - "./facade/app"
   #schedule:
   #  - cron: 15 14 * * 6
   workflow_dispatch:
